@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  height: 100rem;
+  text-align: center;
+  background-color: rgb(153, 133, 175);
+  color: white;
+}
+
+.App-ToDo {
+  height: auto;
+  position: relative;
+  top: 50px;
+  width: 350px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  background-color: rgb(28, 18, 40);
+  padding: 50px 40px 70px 40px;
+  border-radius: 5px;
+
+}
+
+button {
+  background-color: rgb(153, 133, 175);
+  border: 2px solid rgb(153, 133, 175);
+  color: white;
+  padding: 5px;
+  height: 36px;
+  cursor: pointer;
+}
+
+input {
+  margin-top: 30px ;
+  height: 33px;
+  width: 280px ;
+  border: 1px solid rgb(153, 133, 175);
+  background-color: rgb(28, 18, 40);
+  color: white;
+}
+
+.post_text {
+  position: relative;
+  top: 7px;
+  left: 5px;
+  float: left;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  word-break: break-all;
+  
+}
+
+.post_content {
+  position: relative;
+  top: 30px;
+  background-color: rgb(153, 133, 175);
+  padding: 2px;
+  border-radius: 2px;
+  height: 34px;
+  width: 344px ;
+  margin-bottom: 15px;
+}
+
+.post_btn {
+  float: right;
+  background-color: inherit;
+}
+
